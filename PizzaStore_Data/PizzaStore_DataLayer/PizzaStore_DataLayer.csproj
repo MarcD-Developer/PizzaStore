@@ -44,6 +44,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,12 +54,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pizza.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza.cs">
+      <DependentUpon>Pizza.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pizza.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <EntityDeploy Include="Pizza.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Pizza.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Pizza.edmx.diagram">
+      <DependentUpon>Pizza.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pizza.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Pizza.edmx</DependentUpon>
+      <LastGenOutput>Pizza.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Pizza.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Pizza.edmx</DependentUpon>
+      <LastGenOutput>Pizza1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

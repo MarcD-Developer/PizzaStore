@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore_DataLayer", "PizzaStore_DataLayer\PizzaStore_DataLayer.csproj", "{438D175C-D1A6-4D83-8FEE-7356DCEA6262}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore_WebLayer", "PizzaStore_WebLayer\PizzaStore_WebLayer.csproj", "{7BB56E56-EAEC-4583-917D-42363F71BD38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore_DataLayer", "PizzaStore_DataLayer\PizzaStore_DataLayer.csproj", "{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{438D175C-D1A6-4D83-8FEE-7356DCEA6262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{438D175C-D1A6-4D83-8FEE-7356DCEA6262}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{438D175C-D1A6-4D83-8FEE-7356DCEA6262}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{438D175C-D1A6-4D83-8FEE-7356DCEA6262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB56E56-EAEC-4583-917D-42363F71BD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB56E56-EAEC-4583-917D-42363F71BD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB56E56-EAEC-4583-917D-42363F71BD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB56E56-EAEC-4583-917D-42363F71BD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
