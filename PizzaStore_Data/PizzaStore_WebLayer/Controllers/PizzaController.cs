@@ -1,4 +1,5 @@
-﻿using PizzaStore_DataLayer;
+﻿using PizzaStore_BusinessLayer;
+using PizzaStore_DataLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,11 @@ namespace PizzaStore_WebLayer.Controllers
 {
     public class PizzaController : ApiController
     {
+        PizzaLogic pizzaLogic = new PizzaLogic();
         // GET: api/Pizza
         public IEnumerable<Pizza> Get()
         {
-            var pizzaDB = new PizzaList();
-            
-            return pizzaDB.getAllPizzas();
+            return pizzaLogic.getPizza();
         }
 
         // GET: api/Pizza/5

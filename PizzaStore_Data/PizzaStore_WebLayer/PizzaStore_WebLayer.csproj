@@ -264,6 +264,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PizzaStore_BusinessLayer\PizzaStore_BusinessLayer.csproj">
+      <Project>{76712E19-45E5-48FA-B159-DA21BB5949A3}</Project>
+      <Name>PizzaStore_BusinessLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PizzaStore_DataLayer\PizzaStore_DataLayer.csproj">
       <Project>{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}</Project>
       <Name>PizzaStore_DataLayer</Name>

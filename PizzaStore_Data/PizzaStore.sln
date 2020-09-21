@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore_WebLayer", "Pizz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore_DataLayer", "PizzaStore_DataLayer\PizzaStore_DataLayer.csproj", "{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore_BusinessLayer", "PizzaStore_BusinessLayer\PizzaStore_BusinessLayer.csproj", "{76712E19-45E5-48FA-B159-DA21BB5949A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEAF1E15-BA38-491C-80F1-C4A0A8E28A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76712E19-45E5-48FA-B159-DA21BB5949A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76712E19-45E5-48FA-B159-DA21BB5949A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76712E19-45E5-48FA-B159-DA21BB5949A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76712E19-45E5-48FA-B159-DA21BB5949A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
