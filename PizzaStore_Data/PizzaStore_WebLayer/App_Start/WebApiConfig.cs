@@ -9,6 +9,9 @@ namespace PizzaStore_WebLayer
     {
         public static void Register(HttpConfiguration config)
         {
+
+            //Enables cors
+            config.EnableCors();
             // Web API configuration and services
 
             // Web API routes
