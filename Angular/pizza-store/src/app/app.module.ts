@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PizzaHomePageComponent } from './pizza-home-page/pizza-home-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PizzaHomePageComponent
   ],
   imports: [
     BrowserModule,
