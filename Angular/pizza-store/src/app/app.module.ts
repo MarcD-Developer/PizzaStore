@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PizzaHomePageComponent } from './pizza-home-page/pizza-home-page.component';
+import { PizzaService } from './services/pizza-service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { PizzaHomePageComponent } from './pizza-home-page/pizza-home-page.compon
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    PizzaService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
